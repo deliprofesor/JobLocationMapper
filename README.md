@@ -39,18 +39,23 @@ To install all the required Python libraries, run the following command:
 pip install -r requirements.txt
 
 ## Running the Project
+
 Clone the repository from GitHub:
 
-git clone https://github.com/your-username/JobLocationMapper.git
+- **git clone https://github.com/deliprofesor/JobLocationMapper.git**
+
 After cloning, install the necessary dependencies:
 
-pip install -r requirements.txt
+- **pip install -r requirements.txt**
+
 Prepare your job_dataset.csv file:
 
 This file should contain necessary information about job listings, such as city, state, job titles, and other relevant data.
+
 Run the job_locator.py script to generate the map:
 
-python job_locator.py
+- **python job_locator.py**
+
 The map will be saved as india_job_location_map_with_categories.html. Open this file in a web browser to start exploring the job listings on the map.
 
 ## Usage
