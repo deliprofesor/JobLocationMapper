@@ -36,5 +36,45 @@ To run this project, you'll need the following Python libraries:
 
 To install all the required Python libraries, run the following command:
 
-```bash
 pip install -r requirements.txt
+
+## Running the Project
+Clone the repository from GitHub:
+
+git clone https://github.com/your-username/JobLocationMapper.git
+After cloning, install the necessary dependencies:
+
+pip install -r requirements.txt
+Prepare your job_dataset.csv file:
+
+This file should contain necessary information about job listings, such as city, state, job titles, and other relevant data.
+Run the job_locator.py script to generate the map:
+
+python job_locator.py
+The map will be saved as india_job_location_map_with_categories.html. Open this file in a web browser to start exploring the job listings on the map.
+
+## Usage
+The project visualizes job listings on the map and categorizes them by profession:
+
+Occupation Categories
+Job listings are color-coded based on their occupation categories such as Software, Marketing, and Design. These colors help users easily identify different types of job opportunities:
+
+Software (Developer) jobs are marked in blue
+Marketing jobs are marked in green
+Design jobs are marked in red
+Job Listing Information
+Clicking on a job listing on the map will display the job title and location information. Users can learn more about each job opportunity as they explore the map.
+
+## Map Visualization
+The map is designed to visualize job listings in India, but it can easily be adapted to display listings from other geographical regions.
+
+## Contribution
+If you'd like to contribute to this project, follow these steps:
+
+Fork this repository on GitHub.
+Add a new feature or fix a bug.
+Submit a pull request with your changes.
+If you have any questions, please feel free to reach out via the Issues section.
+
+## License
+This project is licensed under the MIT License. See the LICENSE file for more details.
